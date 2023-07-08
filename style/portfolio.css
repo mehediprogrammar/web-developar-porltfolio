@@ -114,6 +114,19 @@ nav a {
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.abaut-info-container{
+    display: flex;
+   justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
 /* about section */
 .about {
     padding: 130px;
