@@ -45,13 +45,43 @@ nav a{
 
 /* header related style */
 .header{
-    background: #FFF8F3;
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right ;
 }
 .banner{
-    padding: 30px 30px 30px 50px;
+    padding:25px 25px 0px 100px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
-.banner .poflie-pic{
-   width: 500px;
+.banner-content{
+    max-width: 500px;
 }
+.banner .profile-pic{
+    width: 700px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 20px;
+    margin-bottom: 5;
+    min-width: 400px;
+}
+.btn-primari{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* main section style */
+/* about section */
