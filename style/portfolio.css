@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primari{
     color: #FD6E0A;
@@ -40,4 +41,17 @@ nav li{
 nav a{
     text-decoration: none;
     color: var(--dark-02, #474747);
+}
+
+/* header related style */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 50px;
+    display: flex;
+    align-items: center;
+}
+.banner .poflie-pic{
+   width: 500px;
 }
