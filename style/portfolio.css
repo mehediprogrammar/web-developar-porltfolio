@@ -168,3 +168,23 @@ main {
     font-weight: 700;
     color: #474747;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.item-description, .resume-item-institute{
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.item-description hr{
+    margin-bottom: 50px;
+}
+.btn-button{
+    text-align: center;
+}
